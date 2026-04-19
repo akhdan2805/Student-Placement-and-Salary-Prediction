@@ -81,7 +81,7 @@ def main():
             salary_pred = reg_model.predict(input_df)[0]
             st.success("Placement Status: Placed")
             st.metric("Predicted Salary Package:", f"{salary_pred:.2f} LPA")
-            st.caption("LPA stands for Lakhs Per Annum.")
+            st.caption("*LPA stands for Lakhs Per Annum.")
         else:
             st.error("Placement Status: Not Placed")
             st.metric("Predicted Salary Package:", "Not Available")
