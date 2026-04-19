@@ -81,7 +81,6 @@ def main():
         placement_pred = clf_model.predict(input_df)[0]
 
         st.divider()
-
         st.header("**Prediction Result**")
 
         if placement_pred == 1:
