@@ -5,8 +5,8 @@ import pandas as pd
 import requests
 
 # Load the machine learning model and encode
-clf_model = joblib.load("artifacts/classification_model.pkl")
-reg_model = joblib.load("artifacts/regression_model.pkl")
+clf_model = joblib.load("classification_model.pkl")
+reg_model = joblib.load("regression_model.pkl")
 
 st.set_page_config(
     page_title="Student Placement and Salary Prediction",
