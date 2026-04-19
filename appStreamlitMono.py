@@ -2,7 +2,6 @@ import streamlit as st
 import joblib
 import numpy as np
 import pandas as pd
-import requests
 
 # Load the machine learning model and encode
 clf_model = joblib.load("classification_model.pkl")
