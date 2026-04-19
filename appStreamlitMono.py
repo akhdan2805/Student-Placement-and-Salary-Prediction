@@ -23,6 +23,8 @@ def main():
         st.write("2802446560")
         st.write("")
         st.write("")
+        st.write("")
+        st.write("")
         st.write("**Placement Prediction Model:**")
         st.write("🚀 XGBoost Classifier")
         st.write("")
