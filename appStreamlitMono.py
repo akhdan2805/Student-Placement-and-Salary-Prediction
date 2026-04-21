@@ -51,7 +51,7 @@ def main():
         with col2:
             internship_count = st.slider("Internship Count", min_value=0, max_value=10, step=1)
             live_projects = st.slider("Live Projects", min_value=0, max_value=10, step=1)
-            work_experience_months = st.number_input("Work Experience (Months)", min_value=0, max_value=72, step=1)
+            work_experience_months = st.number_input("Work Experience (Months)", min_value=0, max_value=24, step=1)
             certifications = st.slider("Certifications", min_value=0, max_value=10, step=1)
             attendance_percentage = st.number_input("Attendance Percentage", min_value=0.0, max_value=100.0, step=0.01)
             backlogs = st.slider("Backlogs", min_value=0, max_value=10, step=1)
